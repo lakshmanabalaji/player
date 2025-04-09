@@ -104,3 +104,6 @@ jobs:
           bench --site test_site run-tests --app player
         env:
           TYPE: server
+
+name: Install MariaDB Client
+run: sudo apt-get update && sudo apt-get install -y mariadb-client-10.6
