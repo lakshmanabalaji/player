@@ -5,6 +5,10 @@ app_description = "training"
 app_email = "lakshmanabalaji190804@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    "Item"
+]
+
 # Apps
 # ------------------
 
