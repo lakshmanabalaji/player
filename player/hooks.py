@@ -6,7 +6,14 @@ app_email = "lakshmanabalaji190804@gmail.com"
 app_license = "mit"
 
 fixtures = [
-    "Item"
+    {
+        "dt": "Custom Field",
+        "filters": [["dt", "in", ["Item"]]]
+    },
+    {
+        "dt": "Property Setter",
+        "filters": [["doc_type", "in", ["Item"]]]
+    }
 ]
 
 # Apps
